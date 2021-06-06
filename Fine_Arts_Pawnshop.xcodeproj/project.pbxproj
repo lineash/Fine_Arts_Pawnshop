@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D971F7EA266A315200478919 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D971F7E9266A315200478919 /* main.cpp */; };
+		D971F7F3266A317000478919 /* libbangtal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D971F7F2266A317000478919 /* libbangtal.dylib */; };
+		D971F7F4266A317000478919 /* libbangtal.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D971F7F2266A317000478919 /* libbangtal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D971F7FE266A6AD800478919 /* bgm.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = D971F7FD266A6AD800478919 /* bgm.mp3 */; };
+		D971F801266A6BCA00478919 /* startRoom.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F800266A6BC900478919 /* startRoom.png */; };
+		D971F803266A7E8500478919 /* startButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F802266A7E8500478919 /* startButton.png */; };
+		D971F805266A7E8C00478919 /* endButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F804266A7E8C00478919 /* endButton.png */; };
+		D971F807266A877A00478919 /* nextButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F806266A877A00478919 /* nextButton.png */; };
+		D971F80B266A886E00478919 /* storyRoom_0.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F80A266A886E00478919 /* storyRoom_0.png */; };
+		D971F82F266AB3F400478919 /* storyRoom_4.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F822266AB3F400478919 /* storyRoom_4.png */; };
+		D971F830266AB3F400478919 /* storyRoom_11.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F823266AB3F400478919 /* storyRoom_11.png */; };
+		D971F831266AB3F400478919 /* storyRoom_13.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F824266AB3F400478919 /* storyRoom_13.png */; };
+		D971F832266AB3F400478919 /* storyRoom_8.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F825266AB3F400478919 /* storyRoom_8.png */; };
+		D971F833266AB3F400478919 /* storyRoom_6.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F826266AB3F400478919 /* storyRoom_6.png */; };
+		D971F834266AB3F400478919 /* storyRoom_1.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F827266AB3F400478919 /* storyRoom_1.png */; };
+		D971F835266AB3F400478919 /* storyRoom_2.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F828266AB3F400478919 /* storyRoom_2.png */; };
+		D971F836266AB3F400478919 /* storyRoom_9.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F829266AB3F400478919 /* storyRoom_9.png */; };
+		D971F837266AB3F400478919 /* storyRoom_7.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F82A266AB3F400478919 /* storyRoom_7.png */; };
+		D971F838266AB3F400478919 /* storyRoom_3.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F82B266AB3F400478919 /* storyRoom_3.png */; };
+		D971F839266AB3F400478919 /* storyRoom_10.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F82C266AB3F400478919 /* storyRoom_10.png */; };
+		D971F83A266AB3F400478919 /* storyRoom_12.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F82D266AB3F400478919 /* storyRoom_12.png */; };
+		D971F83B266AB3F400478919 /* storyRoom_5.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F82E266AB3F400478919 /* storyRoom_5.png */; };
+		D971F83D266AC56E00478919 /* inventory.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F83C266AC56E00478919 /* inventory.png */; };
+		D971F83F266AC57500478919 /* auction.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F83E266AC57500478919 /* auction.png */; };
+		D971F841266AC57E00478919 /* pawnshop.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F840266AC57E00478919 /* pawnshop.png */; };
+		D971F845266AC64F00478919 /* mainRoom.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F844266AC64F00478919 /* mainRoom.png */; };
+		D971F847266BB79100478919 /* backButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F846266BB79100478919 /* backButton.png */; };
+		D971F84B266BBA3400478919 /* room_inventory.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F848266BBA3400478919 /* room_inventory.png */; };
+		D971F84C266BBA3400478919 /* room_pawnshop.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F849266BBA3400478919 /* room_pawnshop.png */; };
+		D971F84D266BBA3400478919 /* room_auction.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F84A266BBA3400478919 /* room_auction.png */; };
+		D971F84F266BC78000478919 /* offwork.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F84E266BC78000478919 /* offwork.png */; };
+		D971F853266BCCB700478919 /* gotoworkButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F852266BCCB700478919 /* gotoworkButton.png */; };
+		D971F855266BCE9700478919 /* nextdayRoom.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F854266BCE9700478919 /* nextdayRoom.png */; };
+		D971F857266C1A7600478919 /* inventory_null.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F856266C1A7600478919 /* inventory_null.png */; };
+		D971F85A266C476400478919 /* image_inventory_0.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F858266C476400478919 /* image_inventory_0.png */; };
+		D971F85B266C476400478919 /* image_pawnshop_0.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F859266C476400478919 /* image_pawnshop_0.png */; };
+		D971F85D266C48D400478919 /* image_auction_0.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F85C266C48D400478919 /* image_auction_0.png */; };
+		D971F85F266C4A7600478919 /* image_inventory_1.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F85E266C4A7600478919 /* image_inventory_1.png */; };
+		D971F861266C4A8000478919 /* image_pawnshop_1.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F860266C4A8000478919 /* image_pawnshop_1.png */; };
+		D971F869266C53E000478919 /* image_inventory_4.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F862266C53E000478919 /* image_inventory_4.png */; };
+		D971F86A266C53E000478919 /* image_inventory_2.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F863266C53E000478919 /* image_inventory_2.png */; };
+		D971F86C266C53E000478919 /* image_inventory_3.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F865266C53E000478919 /* image_inventory_3.png */; };
+		D971F86D266C53E000478919 /* image_pawnshop_4.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F866266C53E000478919 /* image_pawnshop_4.png */; };
+		D971F86E266C53E000478919 /* image_pawnshop_2.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F867266C53E000478919 /* image_pawnshop_2.png */; };
+		D971F86F266C53E000478919 /* image_pawnshop_3.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F868266C53E000478919 /* image_pawnshop_3.png */; };
+		D971F873266C6E6F00478919 /* 0_image_pawnshop_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F872266C6E6F00478919 /* 0_image_pawnshop_idle.png */; };
+		D971F879266C757200478919 /* price_change.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F874266C757200478919 /* price_change.png */; };
+		D971F87A266C757200478919 /* dealButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F875266C757200478919 /* dealButton.png */; };
+		D971F87B266C757200478919 /* noButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F876266C757200478919 /* noButton.png */; };
+		D971F87C266C757200478919 /* price_check.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F877266C757200478919 /* price_check.png */; };
+		D971F87D266C757200478919 /* yesButton.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F878266C757200478919 /* yesButton.png */; };
+		D971F887266C85E100478919 /* buy_over.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F87E266C85E100478919 /* buy_over.png */; };
+		D971F888266C85E100478919 /* sell_over2.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F87F266C85E100478919 /* sell_over2.png */; };
+		D971F889266C85E100478919 /* sell_over1.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F880266C85E100478919 /* sell_over1.png */; };
+		D971F88A266C85E100478919 /* buy_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F881266C85E100478919 /* buy_idle.png */; };
+		D971F88B266C85E100478919 /* buy_stop.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F882266C85E100478919 /* buy_stop.png */; };
+		D971F88C266C85E100478919 /* exchange.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F883266C85E100478919 /* exchange.png */; };
+		D971F88D266C85E100478919 /* sell_stop.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F884266C85E100478919 /* sell_stop.png */; };
+		D971F88E266C85E100478919 /* sell_over3.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F885266C85E100478919 /* sell_over3.png */; };
+		D971F88F266C85E100478919 /* sell_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F886266C85E100478919 /* sell_idle.png */; };
+		D971F891266C936900478919 /* wallet.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F890266C936900478919 /* wallet.png */; };
+		D971F893266CB2CE00478919 /* eventRoom_1.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F892266CB2CE00478919 /* eventRoom_1.png */; };
+		D971F895266CB68F00478919 /* eventRoom_2.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F894266CB68F00478919 /* eventRoom_2.png */; };
+		D971F897266CB6E300478919 /* eventRoom_0.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F896266CB6E300478919 /* eventRoom_0.png */; };
+		D971F899266CCF3300478919 /* drop.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F898266CCF3300478919 /* drop.png */; };
+		D971F89B266CD33E00478919 /* fact.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F89A266CD33E00478919 /* fact.png */; };
+		D971F8A6266CD8FF00478919 /* image_inventory_5.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F89C266CD8FF00478919 /* image_inventory_5.png */; };
+		D971F8A7266CD8FF00478919 /* image_inventory_6.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F89D266CD8FF00478919 /* image_inventory_6.png */; };
+		D971F8A8266CD8FF00478919 /* image_pawnshop_8.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F89E266CD8FF00478919 /* image_pawnshop_8.png */; };
+		D971F8A9266CD8FF00478919 /* image_pawnshop_5.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F89F266CD8FF00478919 /* image_pawnshop_5.png */; };
+		D971F8AA266CD8FF00478919 /* image_inventory_7.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8A0266CD8FF00478919 /* image_inventory_7.png */; };
+		D971F8AB266CD8FF00478919 /* image_pawnshop_9.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8A1266CD8FF00478919 /* image_pawnshop_9.png */; };
+		D971F8AC266CD8FF00478919 /* image_pawnshop_6.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8A2266CD8FF00478919 /* image_pawnshop_6.png */; };
+		D971F8AD266CD8FF00478919 /* image_inventory_9.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8A3266CD8FF00478919 /* image_inventory_9.png */; };
+		D971F8AE266CD8FF00478919 /* image_pawnshop_7.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8A4266CD8FF00478919 /* image_pawnshop_7.png */; };
+		D971F8AF266CD8FF00478919 /* image_inventory_8.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8A5266CD8FF00478919 /* image_inventory_8.png */; };
+		D971F8BA266CDD6E00478919 /* image_inventory_14.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B0266CDD6E00478919 /* image_inventory_14.png */; };
+		D971F8BB266CDD6E00478919 /* image_inventory_13.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B1266CDD6E00478919 /* image_inventory_13.png */; };
+		D971F8BC266CDD6E00478919 /* image_pawnshop_10.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B2266CDD6E00478919 /* image_pawnshop_10.png */; };
+		D971F8BD266CDD6E00478919 /* image_pawnshop_11.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B3266CDD6E00478919 /* image_pawnshop_11.png */; };
+		D971F8BE266CDD6E00478919 /* image_inventory_12.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B4266CDD6E00478919 /* image_inventory_12.png */; };
+		D971F8BF266CDD6E00478919 /* image_pawnshop_12.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B5266CDD6E00478919 /* image_pawnshop_12.png */; };
+		D971F8C0266CDD6E00478919 /* image_pawnshop_13.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B6266CDD6E00478919 /* image_pawnshop_13.png */; };
+		D971F8C1266CDD6E00478919 /* image_pawnshop_14.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B7266CDD6E00478919 /* image_pawnshop_14.png */; };
+		D971F8C2266CDD6E00478919 /* image_inventory_10.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B8266CDD6E00478919 /* image_inventory_10.png */; };
+		D971F8C3266CDD6E00478919 /* image_inventory_11.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8B9266CDD6E00478919 /* image_inventory_11.png */; };
+		D971F8CE266CE17A00478919 /* image_pawnshop_18.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8C4266CE17A00478919 /* image_pawnshop_18.png */; };
+		D971F8CF266CE17A00478919 /* image_pawnshop_16.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8C5266CE17A00478919 /* image_pawnshop_16.png */; };
+		D971F8D0266CE17A00478919 /* image_pawnshop_19.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8C6266CE17A00478919 /* image_pawnshop_19.png */; };
+		D971F8D1266CE17A00478919 /* image_inventory_17.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8C7266CE17A00478919 /* image_inventory_17.png */; };
+		D971F8D2266CE17A00478919 /* image_pawnshop_17.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8C8266CE17A00478919 /* image_pawnshop_17.png */; };
+		D971F8D3266CE17A00478919 /* image_pawnshop_15.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8C9266CE17A00478919 /* image_pawnshop_15.png */; };
+		D971F8D4266CE17A00478919 /* image_inventory_16.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8CA266CE17A00478919 /* image_inventory_16.png */; };
+		D971F8D5266CE17A00478919 /* image_inventory_18.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8CB266CE17A00478919 /* image_inventory_18.png */; };
+		D971F8D6266CE17A00478919 /* image_inventory_15.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8CC266CE17A00478919 /* image_inventory_15.png */; };
+		D971F8D7266CE17A00478919 /* image_inventory_19.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8CD266CE17A00478919 /* image_inventory_19.png */; };
+		D971F8E2266CE69B00478919 /* image_pawnshop_21.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8D8266CE69B00478919 /* image_pawnshop_21.png */; };
+		D971F8E3266CE69B00478919 /* image_pawnshop_23.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8D9266CE69B00478919 /* image_pawnshop_23.png */; };
+		D971F8E4266CE69B00478919 /* image_inventory_23.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8DA266CE69B00478919 /* image_inventory_23.png */; };
+		D971F8E5266CE69B00478919 /* image_inventory_20.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8DB266CE69B00478919 /* image_inventory_20.png */; };
+		D971F8E6266CE69B00478919 /* image_inventory_24.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8DC266CE69B00478919 /* image_inventory_24.png */; };
+		D971F8E7266CE69B00478919 /* image_inventory_21.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8DD266CE69B00478919 /* image_inventory_21.png */; };
+		D971F8E8266CE69B00478919 /* image_inventory_22.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8DE266CE69B00478919 /* image_inventory_22.png */; };
+		D971F8E9266CE69B00478919 /* image_pawnshop_20.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8DF266CE69B00478919 /* image_pawnshop_20.png */; };
+		D971F8EA266CE69B00478919 /* image_pawnshop_24.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8E0266CE69B00478919 /* image_pawnshop_24.png */; };
+		D971F8EB266CE69B00478919 /* image_pawnshop_22.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8E1266CE69B00478919 /* image_pawnshop_22.png */; };
+		D971F8F0266CE97B00478919 /* 1_image_pawnshop_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8EC266CE97B00478919 /* 1_image_pawnshop_idle.png */; };
+		D971F8F1266CE97B00478919 /* 3_image_pawnshop_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8ED266CE97B00478919 /* 3_image_pawnshop_idle.png */; };
+		D971F8F2266CE97B00478919 /* 4_image_pawnshop_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8EE266CE97B00478919 /* 4_image_pawnshop_idle.png */; };
+		D971F8F3266CE97B00478919 /* 2_image_pawnshop_idle.png in Sources */ = {isa = PBXBuildFile; fileRef = D971F8EF266CE97B00478919 /* 2_image_pawnshop_idle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D971F7E4266A315200478919 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D971F7F5266A317000478919 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D971F7F4266A317000478919 /* libbangtal.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D971F7E6266A315200478919 /* Fine_Arts_Pawnshop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fine_Arts_Pawnshop; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971F7E9266A315200478919 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D971F7F2266A317000478919 /* libbangtal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbangtal.dylib; path = ../../../../Library/Frameworks/Bangtal/lib/Release/libbangtal.dylib; sourceTree = "<group>"; };
+		D971F7FB266A6ACF00478919 /* startRoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startRoom.png; sourceTree = "<group>"; };
+		D971F7FD266A6AD800478919 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		D971F800266A6BC900478919 /* startRoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startRoom.png; sourceTree = "<group>"; };
+		D971F802266A7E8500478919 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		D971F804266A7E8C00478919 /* endButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endButton.png; sourceTree = "<group>"; };
+		D971F806266A877A00478919 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
+		D971F808266A881D00478919 /* storyRoom_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_1.png; sourceTree = "<group>"; };
+		D971F80A266A886E00478919 /* storyRoom_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_0.png; sourceTree = "<group>"; };
+		D971F80C266AAA3B00478919 /* storyRoom_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_5.png; sourceTree = "<group>"; };
+		D971F80D266AAA3B00478919 /* storyRoom_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_4.png; sourceTree = "<group>"; };
+		D971F80E266AAA3B00478919 /* storyRoom_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_10.png; sourceTree = "<group>"; };
+		D971F80F266AAA3B00478919 /* storyRoom_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_3.png; sourceTree = "<group>"; };
+		D971F810266AAA3B00478919 /* storyRoom_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_1.png; sourceTree = "<group>"; };
+		D971F811266AAA3B00478919 /* storyRoom_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_6.png; sourceTree = "<group>"; };
+		D971F812266AAA3B00478919 /* storyRoom_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_7.png; sourceTree = "<group>"; };
+		D971F813266AAA3B00478919 /* storyRoom_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_8.png; sourceTree = "<group>"; };
+		D971F814266AAA3B00478919 /* storyRoom_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_9.png; sourceTree = "<group>"; };
+		D971F815266AAA3B00478919 /* storyRoom_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_11.png; sourceTree = "<group>"; };
+		D971F816266AAA3B00478919 /* storyRoom_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_2.png; sourceTree = "<group>"; };
+		D971F822266AB3F400478919 /* storyRoom_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_4.png; sourceTree = "<group>"; };
+		D971F823266AB3F400478919 /* storyRoom_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_11.png; sourceTree = "<group>"; };
+		D971F824266AB3F400478919 /* storyRoom_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_13.png; sourceTree = "<group>"; };
+		D971F825266AB3F400478919 /* storyRoom_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_8.png; sourceTree = "<group>"; };
+		D971F826266AB3F400478919 /* storyRoom_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_6.png; sourceTree = "<group>"; };
+		D971F827266AB3F400478919 /* storyRoom_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_1.png; sourceTree = "<group>"; };
+		D971F828266AB3F400478919 /* storyRoom_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_2.png; sourceTree = "<group>"; };
+		D971F829266AB3F400478919 /* storyRoom_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_9.png; sourceTree = "<group>"; };
+		D971F82A266AB3F400478919 /* storyRoom_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_7.png; sourceTree = "<group>"; };
+		D971F82B266AB3F400478919 /* storyRoom_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_3.png; sourceTree = "<group>"; };
+		D971F82C266AB3F400478919 /* storyRoom_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_10.png; sourceTree = "<group>"; };
+		D971F82D266AB3F400478919 /* storyRoom_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_12.png; sourceTree = "<group>"; };
+		D971F82E266AB3F400478919 /* storyRoom_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyRoom_5.png; sourceTree = "<group>"; };
+		D971F83C266AC56E00478919 /* inventory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inventory.png; sourceTree = "<group>"; };
+		D971F83E266AC57500478919 /* auction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auction.png; sourceTree = "<group>"; };
+		D971F840266AC57E00478919 /* pawnshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawnshop.png; sourceTree = "<group>"; };
+		D971F844266AC64F00478919 /* mainRoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainRoom.png; sourceTree = "<group>"; };
+		D971F846266BB79100478919 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		D971F848266BBA3400478919 /* room_inventory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room_inventory.png; sourceTree = "<group>"; };
+		D971F849266BBA3400478919 /* room_pawnshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room_pawnshop.png; sourceTree = "<group>"; };
+		D971F84A266BBA3400478919 /* room_auction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room_auction.png; sourceTree = "<group>"; };
+		D971F84E266BC78000478919 /* offwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offwork.png; sourceTree = "<group>"; };
+		D971F852266BCCB700478919 /* gotoworkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gotoworkButton.png; sourceTree = "<group>"; };
+		D971F854266BCE9700478919 /* nextdayRoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextdayRoom.png; sourceTree = "<group>"; };
+		D971F856266C1A7600478919 /* inventory_null.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inventory_null.png; sourceTree = "<group>"; };
+		D971F858266C476400478919 /* image_inventory_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_0.png; sourceTree = "<group>"; };
+		D971F859266C476400478919 /* image_pawnshop_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_0.png; sourceTree = "<group>"; };
+		D971F85C266C48D400478919 /* image_auction_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_auction_0.png; sourceTree = "<group>"; };
+		D971F85E266C4A7600478919 /* image_inventory_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_1.png; sourceTree = "<group>"; };
+		D971F860266C4A8000478919 /* image_pawnshop_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_1.png; sourceTree = "<group>"; };
+		D971F862266C53E000478919 /* image_inventory_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_4.png; sourceTree = "<group>"; };
+		D971F863266C53E000478919 /* image_inventory_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_2.png; sourceTree = "<group>"; };
+		D971F865266C53E000478919 /* image_inventory_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_3.png; sourceTree = "<group>"; };
+		D971F866266C53E000478919 /* image_pawnshop_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_4.png; sourceTree = "<group>"; };
+		D971F867266C53E000478919 /* image_pawnshop_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_2.png; sourceTree = "<group>"; };
+		D971F868266C53E000478919 /* image_pawnshop_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_3.png; sourceTree = "<group>"; };
+		D971F872266C6E6F00478919 /* 0_image_pawnshop_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0_image_pawnshop_idle.png; sourceTree = "<group>"; };
+		D971F874266C757200478919 /* price_change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = price_change.png; sourceTree = "<group>"; };
+		D971F875266C757200478919 /* dealButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dealButton.png; sourceTree = "<group>"; };
+		D971F876266C757200478919 /* noButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noButton.png; sourceTree = "<group>"; };
+		D971F877266C757200478919 /* price_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = price_check.png; sourceTree = "<group>"; };
+		D971F878266C757200478919 /* yesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesButton.png; sourceTree = "<group>"; };
+		D971F87E266C85E100478919 /* buy_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_over.png; sourceTree = "<group>"; };
+		D971F87F266C85E100478919 /* sell_over2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sell_over2.png; sourceTree = "<group>"; };
+		D971F880266C85E100478919 /* sell_over1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sell_over1.png; sourceTree = "<group>"; };
+		D971F881266C85E100478919 /* buy_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_idle.png; sourceTree = "<group>"; };
+		D971F882266C85E100478919 /* buy_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_stop.png; sourceTree = "<group>"; };
+		D971F883266C85E100478919 /* exchange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exchange.png; sourceTree = "<group>"; };
+		D971F884266C85E100478919 /* sell_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sell_stop.png; sourceTree = "<group>"; };
+		D971F885266C85E100478919 /* sell_over3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sell_over3.png; sourceTree = "<group>"; };
+		D971F886266C85E100478919 /* sell_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sell_idle.png; sourceTree = "<group>"; };
+		D971F890266C936900478919 /* wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet.png; sourceTree = "<group>"; };
+		D971F892266CB2CE00478919 /* eventRoom_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventRoom_1.png; sourceTree = "<group>"; };
+		D971F894266CB68F00478919 /* eventRoom_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventRoom_2.png; sourceTree = "<group>"; };
+		D971F896266CB6E300478919 /* eventRoom_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventRoom_0.png; sourceTree = "<group>"; };
+		D971F898266CCF3300478919 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		D971F89A266CD33E00478919 /* fact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fact.png; sourceTree = "<group>"; };
+		D971F89C266CD8FF00478919 /* image_inventory_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_5.png; sourceTree = "<group>"; };
+		D971F89D266CD8FF00478919 /* image_inventory_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_6.png; sourceTree = "<group>"; };
+		D971F89E266CD8FF00478919 /* image_pawnshop_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_8.png; sourceTree = "<group>"; };
+		D971F89F266CD8FF00478919 /* image_pawnshop_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_5.png; sourceTree = "<group>"; };
+		D971F8A0266CD8FF00478919 /* image_inventory_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_7.png; sourceTree = "<group>"; };
+		D971F8A1266CD8FF00478919 /* image_pawnshop_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_9.png; sourceTree = "<group>"; };
+		D971F8A2266CD8FF00478919 /* image_pawnshop_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_6.png; sourceTree = "<group>"; };
+		D971F8A3266CD8FF00478919 /* image_inventory_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_9.png; sourceTree = "<group>"; };
+		D971F8A4266CD8FF00478919 /* image_pawnshop_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_7.png; sourceTree = "<group>"; };
+		D971F8A5266CD8FF00478919 /* image_inventory_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_8.png; sourceTree = "<group>"; };
+		D971F8B0266CDD6E00478919 /* image_inventory_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_14.png; sourceTree = "<group>"; };
+		D971F8B1266CDD6E00478919 /* image_inventory_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_13.png; sourceTree = "<group>"; };
+		D971F8B2266CDD6E00478919 /* image_pawnshop_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_10.png; sourceTree = "<group>"; };
+		D971F8B3266CDD6E00478919 /* image_pawnshop_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_11.png; sourceTree = "<group>"; };
+		D971F8B4266CDD6E00478919 /* image_inventory_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_12.png; sourceTree = "<group>"; };
+		D971F8B5266CDD6E00478919 /* image_pawnshop_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_12.png; sourceTree = "<group>"; };
+		D971F8B6266CDD6E00478919 /* image_pawnshop_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_13.png; sourceTree = "<group>"; };
+		D971F8B7266CDD6E00478919 /* image_pawnshop_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_14.png; sourceTree = "<group>"; };
+		D971F8B8266CDD6E00478919 /* image_inventory_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_10.png; sourceTree = "<group>"; };
+		D971F8B9266CDD6E00478919 /* image_inventory_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_11.png; sourceTree = "<group>"; };
+		D971F8C4266CE17A00478919 /* image_pawnshop_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_18.png; sourceTree = "<group>"; };
+		D971F8C5266CE17A00478919 /* image_pawnshop_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_16.png; sourceTree = "<group>"; };
+		D971F8C6266CE17A00478919 /* image_pawnshop_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_19.png; sourceTree = "<group>"; };
+		D971F8C7266CE17A00478919 /* image_inventory_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_17.png; sourceTree = "<group>"; };
+		D971F8C8266CE17A00478919 /* image_pawnshop_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_17.png; sourceTree = "<group>"; };
+		D971F8C9266CE17A00478919 /* image_pawnshop_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_15.png; sourceTree = "<group>"; };
+		D971F8CA266CE17A00478919 /* image_inventory_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_16.png; sourceTree = "<group>"; };
+		D971F8CB266CE17A00478919 /* image_inventory_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_18.png; sourceTree = "<group>"; };
+		D971F8CC266CE17A00478919 /* image_inventory_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_15.png; sourceTree = "<group>"; };
+		D971F8CD266CE17A00478919 /* image_inventory_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_19.png; sourceTree = "<group>"; };
+		D971F8D8266CE69B00478919 /* image_pawnshop_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_21.png; sourceTree = "<group>"; };
+		D971F8D9266CE69B00478919 /* image_pawnshop_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_23.png; sourceTree = "<group>"; };
+		D971F8DA266CE69B00478919 /* image_inventory_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_23.png; sourceTree = "<group>"; };
+		D971F8DB266CE69B00478919 /* image_inventory_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_20.png; sourceTree = "<group>"; };
+		D971F8DC266CE69B00478919 /* image_inventory_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_24.png; sourceTree = "<group>"; };
+		D971F8DD266CE69B00478919 /* image_inventory_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_21.png; sourceTree = "<group>"; };
+		D971F8DE266CE69B00478919 /* image_inventory_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_inventory_22.png; sourceTree = "<group>"; };
+		D971F8DF266CE69B00478919 /* image_pawnshop_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_20.png; sourceTree = "<group>"; };
+		D971F8E0266CE69B00478919 /* image_pawnshop_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_24.png; sourceTree = "<group>"; };
+		D971F8E1266CE69B00478919 /* image_pawnshop_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_pawnshop_22.png; sourceTree = "<group>"; };
+		D971F8EC266CE97B00478919 /* 1_image_pawnshop_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_image_pawnshop_idle.png; sourceTree = "<group>"; };
+		D971F8ED266CE97B00478919 /* 3_image_pawnshop_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_image_pawnshop_idle.png; sourceTree = "<group>"; };
+		D971F8EE266CE97B00478919 /* 4_image_pawnshop_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_image_pawnshop_idle.png; sourceTree = "<group>"; };
+		D971F8EF266CE97B00478919 /* 2_image_pawnshop_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_image_pawnshop_idle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D971F7E3266A315200478919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971F7F3266A317000478919 /* libbangtal.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D971F7DD266A315200478919 = {
+			isa = PBXGroup;
+			children = (
+				D971F8EC266CE97B00478919 /* 1_image_pawnshop_idle.png */,
+				D971F8EF266CE97B00478919 /* 2_image_pawnshop_idle.png */,
+				D971F8ED266CE97B00478919 /* 3_image_pawnshop_idle.png */,
+				D971F8EE266CE97B00478919 /* 4_image_pawnshop_idle.png */,
+				D971F8DB266CE69B00478919 /* image_inventory_20.png */,
+				D971F8DD266CE69B00478919 /* image_inventory_21.png */,
+				D971F8DE266CE69B00478919 /* image_inventory_22.png */,
+				D971F8DA266CE69B00478919 /* image_inventory_23.png */,
+				D971F8DC266CE69B00478919 /* image_inventory_24.png */,
+				D971F8DF266CE69B00478919 /* image_pawnshop_20.png */,
+				D971F8D8266CE69B00478919 /* image_pawnshop_21.png */,
+				D971F8E1266CE69B00478919 /* image_pawnshop_22.png */,
+				D971F8D9266CE69B00478919 /* image_pawnshop_23.png */,
+				D971F8E0266CE69B00478919 /* image_pawnshop_24.png */,
+				D971F8CC266CE17A00478919 /* image_inventory_15.png */,
+				D971F8CA266CE17A00478919 /* image_inventory_16.png */,
+				D971F8C7266CE17A00478919 /* image_inventory_17.png */,
+				D971F8CB266CE17A00478919 /* image_inventory_18.png */,
+				D971F8CD266CE17A00478919 /* image_inventory_19.png */,
+				D971F8C9266CE17A00478919 /* image_pawnshop_15.png */,
+				D971F8C5266CE17A00478919 /* image_pawnshop_16.png */,
+				D971F8C8266CE17A00478919 /* image_pawnshop_17.png */,
+				D971F8C4266CE17A00478919 /* image_pawnshop_18.png */,
+				D971F8C6266CE17A00478919 /* image_pawnshop_19.png */,
+				D971F8B8266CDD6E00478919 /* image_inventory_10.png */,
+				D971F8B9266CDD6E00478919 /* image_inventory_11.png */,
+				D971F8B4266CDD6E00478919 /* image_inventory_12.png */,
+				D971F8B1266CDD6E00478919 /* image_inventory_13.png */,
+				D971F8B0266CDD6E00478919 /* image_inventory_14.png */,
+				D971F8B2266CDD6E00478919 /* image_pawnshop_10.png */,
+				D971F8B3266CDD6E00478919 /* image_pawnshop_11.png */,
+				D971F8B5266CDD6E00478919 /* image_pawnshop_12.png */,
+				D971F8B6266CDD6E00478919 /* image_pawnshop_13.png */,
+				D971F8B7266CDD6E00478919 /* image_pawnshop_14.png */,
+				D971F89C266CD8FF00478919 /* image_inventory_5.png */,
+				D971F89D266CD8FF00478919 /* image_inventory_6.png */,
+				D971F8A0266CD8FF00478919 /* image_inventory_7.png */,
+				D971F8A5266CD8FF00478919 /* image_inventory_8.png */,
+				D971F8A3266CD8FF00478919 /* image_inventory_9.png */,
+				D971F89F266CD8FF00478919 /* image_pawnshop_5.png */,
+				D971F8A2266CD8FF00478919 /* image_pawnshop_6.png */,
+				D971F8A4266CD8FF00478919 /* image_pawnshop_7.png */,
+				D971F89E266CD8FF00478919 /* image_pawnshop_8.png */,
+				D971F8A1266CD8FF00478919 /* image_pawnshop_9.png */,
+				D971F89A266CD33E00478919 /* fact.png */,
+				D971F898266CCF3300478919 /* drop.png */,
+				D971F896266CB6E300478919 /* eventRoom_0.png */,
+				D971F894266CB68F00478919 /* eventRoom_2.png */,
+				D971F892266CB2CE00478919 /* eventRoom_1.png */,
+				D971F890266C936900478919 /* wallet.png */,
+				D971F881266C85E100478919 /* buy_idle.png */,
+				D971F87E266C85E100478919 /* buy_over.png */,
+				D971F882266C85E100478919 /* buy_stop.png */,
+				D971F883266C85E100478919 /* exchange.png */,
+				D971F886266C85E100478919 /* sell_idle.png */,
+				D971F880266C85E100478919 /* sell_over1.png */,
+				D971F87F266C85E100478919 /* sell_over2.png */,
+				D971F885266C85E100478919 /* sell_over3.png */,
+				D971F884266C85E100478919 /* sell_stop.png */,
+				D971F875266C757200478919 /* dealButton.png */,
+				D971F876266C757200478919 /* noButton.png */,
+				D971F874266C757200478919 /* price_change.png */,
+				D971F877266C757200478919 /* price_check.png */,
+				D971F878266C757200478919 /* yesButton.png */,
+				D971F872266C6E6F00478919 /* 0_image_pawnshop_idle.png */,
+				D971F863266C53E000478919 /* image_inventory_2.png */,
+				D971F865266C53E000478919 /* image_inventory_3.png */,
+				D971F862266C53E000478919 /* image_inventory_4.png */,
+				D971F867266C53E000478919 /* image_pawnshop_2.png */,
+				D971F868266C53E000478919 /* image_pawnshop_3.png */,
+				D971F866266C53E000478919 /* image_pawnshop_4.png */,
+				D971F860266C4A8000478919 /* image_pawnshop_1.png */,
+				D971F85E266C4A7600478919 /* image_inventory_1.png */,
+				D971F85C266C48D400478919 /* image_auction_0.png */,
+				D971F858266C476400478919 /* image_inventory_0.png */,
+				D971F859266C476400478919 /* image_pawnshop_0.png */,
+				D971F856266C1A7600478919 /* inventory_null.png */,
+				D971F854266BCE9700478919 /* nextdayRoom.png */,
+				D971F852266BCCB700478919 /* gotoworkButton.png */,
+				D971F84E266BC78000478919 /* offwork.png */,
+				D971F84A266BBA3400478919 /* room_auction.png */,
+				D971F848266BBA3400478919 /* room_inventory.png */,
+				D971F849266BBA3400478919 /* room_pawnshop.png */,
+				D971F846266BB79100478919 /* backButton.png */,
+				D971F844266AC64F00478919 /* mainRoom.png */,
+				D971F840266AC57E00478919 /* pawnshop.png */,
+				D971F83E266AC57500478919 /* auction.png */,
+				D971F83C266AC56E00478919 /* inventory.png */,
+				D971F810266AAA3B00478919 /* storyRoom_1.png */,
+				D971F816266AAA3B00478919 /* storyRoom_2.png */,
+				D971F80F266AAA3B00478919 /* storyRoom_3.png */,
+				D971F827266AB3F400478919 /* storyRoom_1.png */,
+				D971F828266AB3F400478919 /* storyRoom_2.png */,
+				D971F82B266AB3F400478919 /* storyRoom_3.png */,
+				D971F80D266AAA3B00478919 /* storyRoom_4.png */,
+				D971F80C266AAA3B00478919 /* storyRoom_5.png */,
+				D971F82E266AB3F400478919 /* storyRoom_5.png */,
+				D971F811266AAA3B00478919 /* storyRoom_6.png */,
+				D971F812266AAA3B00478919 /* storyRoom_7.png */,
+				D971F826266AB3F400478919 /* storyRoom_6.png */,
+				D971F82A266AB3F400478919 /* storyRoom_7.png */,
+				D971F813266AAA3B00478919 /* storyRoom_8.png */,
+				D971F814266AAA3B00478919 /* storyRoom_9.png */,
+				D971F80E266AAA3B00478919 /* storyRoom_10.png */,
+				D971F825266AB3F400478919 /* storyRoom_8.png */,
+				D971F829266AB3F400478919 /* storyRoom_9.png */,
+				D971F82C266AB3F400478919 /* storyRoom_10.png */,
+				D971F815266AAA3B00478919 /* storyRoom_11.png */,
+				D971F822266AB3F400478919 /* storyRoom_4.png */,
+				D971F823266AB3F400478919 /* storyRoom_11.png */,
+				D971F82D266AB3F400478919 /* storyRoom_12.png */,
+				D971F824266AB3F400478919 /* storyRoom_13.png */,
+				D971F80A266A886E00478919 /* storyRoom_0.png */,
+				D971F808266A881D00478919 /* storyRoom_1.png */,
+				D971F806266A877A00478919 /* nextButton.png */,
+				D971F804266A7E8C00478919 /* endButton.png */,
+				D971F802266A7E8500478919 /* startButton.png */,
+				D971F800266A6BC900478919 /* startRoom.png */,
+				D971F7FD266A6AD800478919 /* bgm.mp3 */,
+				D971F7FB266A6ACF00478919 /* startRoom.png */,
+				D971F7E8266A315200478919 /* Fine_Arts_Pawnshop */,
+				D971F7E7266A315200478919 /* Products */,
+				D971F7F1266A317000478919 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D971F7E7266A315200478919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D971F7E6266A315200478919 /* Fine_Arts_Pawnshop */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D971F7E8266A315200478919 /* Fine_Arts_Pawnshop */ = {
+			isa = PBXGroup;
+			children = (
+				D971F7E9266A315200478919 /* main.cpp */,
+			);
+			path = Fine_Arts_Pawnshop;
+			sourceTree = "<group>";
+		};
+		D971F7F1266A317000478919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D971F7F2266A317000478919 /* libbangtal.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D971F7E5266A315200478919 /* Fine_Arts_Pawnshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971F7ED266A315200478919 /* Build configuration list for PBXNativeTarget "Fine_Arts_Pawnshop" */;
+			buildPhases = (
+				D971F7E2266A315200478919 /* Sources */,
+				D971F7E3266A315200478919 /* Frameworks */,
+				D971F7E4266A315200478919 /* CopyFiles */,
+				D971F7F5266A317000478919 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fine_Arts_Pawnshop;
+			productName = Blind_Date_Inc;
+			productReference = D971F7E6266A315200478919 /* Fine_Arts_Pawnshop */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D971F7DE266A315200478919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D971F7E5266A315200478919 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D971F7E1266A315200478919 /* Build configuration list for PBXProject "Fine_Arts_Pawnshop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D971F7DD266A315200478919;
+			productRefGroup = D971F7E7266A315200478919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D971F7E5266A315200478919 /* Fine_Arts_Pawnshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D971F7E2266A315200478919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971F8F0266CE97B00478919 /* 1_image_pawnshop_idle.png in Sources */,
+				D971F8F1266CE97B00478919 /* 3_image_pawnshop_idle.png in Sources */,
+				D971F8F2266CE97B00478919 /* 4_image_pawnshop_idle.png in Sources */,
+				D971F8F3266CE97B00478919 /* 2_image_pawnshop_idle.png in Sources */,
+				D971F8E2266CE69B00478919 /* image_pawnshop_21.png in Sources */,
+				D971F8E3266CE69B00478919 /* image_pawnshop_23.png in Sources */,
+				D971F8E4266CE69B00478919 /* image_inventory_23.png in Sources */,
+				D971F8E5266CE69B00478919 /* image_inventory_20.png in Sources */,
+				D971F8E6266CE69B00478919 /* image_inventory_24.png in Sources */,
+				D971F8E7266CE69B00478919 /* image_inventory_21.png in Sources */,
+				D971F8E8266CE69B00478919 /* image_inventory_22.png in Sources */,
+				D971F8E9266CE69B00478919 /* image_pawnshop_20.png in Sources */,
+				D971F8EA266CE69B00478919 /* image_pawnshop_24.png in Sources */,
+				D971F8EB266CE69B00478919 /* image_pawnshop_22.png in Sources */,
+				D971F8CE266CE17A00478919 /* image_pawnshop_18.png in Sources */,
+				D971F8CF266CE17A00478919 /* image_pawnshop_16.png in Sources */,
+				D971F8D0266CE17A00478919 /* image_pawnshop_19.png in Sources */,
+				D971F8D1266CE17A00478919 /* image_inventory_17.png in Sources */,
+				D971F8D2266CE17A00478919 /* image_pawnshop_17.png in Sources */,
+				D971F8D3266CE17A00478919 /* image_pawnshop_15.png in Sources */,
+				D971F8D4266CE17A00478919 /* image_inventory_16.png in Sources */,
+				D971F8D5266CE17A00478919 /* image_inventory_18.png in Sources */,
+				D971F8D6266CE17A00478919 /* image_inventory_15.png in Sources */,
+				D971F8D7266CE17A00478919 /* image_inventory_19.png in Sources */,
+				D971F8BA266CDD6E00478919 /* image_inventory_14.png in Sources */,
+				D971F8BB266CDD6E00478919 /* image_inventory_13.png in Sources */,
+				D971F8BC266CDD6E00478919 /* image_pawnshop_10.png in Sources */,
+				D971F8BD266CDD6E00478919 /* image_pawnshop_11.png in Sources */,
+				D971F8BE266CDD6E00478919 /* image_inventory_12.png in Sources */,
+				D971F8BF266CDD6E00478919 /* image_pawnshop_12.png in Sources */,
+				D971F8C0266CDD6E00478919 /* image_pawnshop_13.png in Sources */,
+				D971F8C1266CDD6E00478919 /* image_pawnshop_14.png in Sources */,
+				D971F8C2266CDD6E00478919 /* image_inventory_10.png in Sources */,
+				D971F8C3266CDD6E00478919 /* image_inventory_11.png in Sources */,
+				D971F8A6266CD8FF00478919 /* image_inventory_5.png in Sources */,
+				D971F8A7266CD8FF00478919 /* image_inventory_6.png in Sources */,
+				D971F8A8266CD8FF00478919 /* image_pawnshop_8.png in Sources */,
+				D971F8A9266CD8FF00478919 /* image_pawnshop_5.png in Sources */,
+				D971F8AA266CD8FF00478919 /* image_inventory_7.png in Sources */,
+				D971F8AB266CD8FF00478919 /* image_pawnshop_9.png in Sources */,
+				D971F8AC266CD8FF00478919 /* image_pawnshop_6.png in Sources */,
+				D971F8AD266CD8FF00478919 /* image_inventory_9.png in Sources */,
+				D971F8AE266CD8FF00478919 /* image_pawnshop_7.png in Sources */,
+				D971F8AF266CD8FF00478919 /* image_inventory_8.png in Sources */,
+				D971F89B266CD33E00478919 /* fact.png in Sources */,
+				D971F899266CCF3300478919 /* drop.png in Sources */,
+				D971F897266CB6E300478919 /* eventRoom_0.png in Sources */,
+				D971F895266CB68F00478919 /* eventRoom_2.png in Sources */,
+				D971F893266CB2CE00478919 /* eventRoom_1.png in Sources */,
+				D971F891266C936900478919 /* wallet.png in Sources */,
+				D971F887266C85E100478919 /* buy_over.png in Sources */,
+				D971F888266C85E100478919 /* sell_over2.png in Sources */,
+				D971F889266C85E100478919 /* sell_over1.png in Sources */,
+				D971F88A266C85E100478919 /* buy_idle.png in Sources */,
+				D971F88B266C85E100478919 /* buy_stop.png in Sources */,
+				D971F88C266C85E100478919 /* exchange.png in Sources */,
+				D971F88D266C85E100478919 /* sell_stop.png in Sources */,
+				D971F88E266C85E100478919 /* sell_over3.png in Sources */,
+				D971F88F266C85E100478919 /* sell_idle.png in Sources */,
+				D971F879266C757200478919 /* price_change.png in Sources */,
+				D971F87A266C757200478919 /* dealButton.png in Sources */,
+				D971F87B266C757200478919 /* noButton.png in Sources */,
+				D971F87C266C757200478919 /* price_check.png in Sources */,
+				D971F87D266C757200478919 /* yesButton.png in Sources */,
+				D971F873266C6E6F00478919 /* 0_image_pawnshop_idle.png in Sources */,
+				D971F869266C53E000478919 /* image_inventory_4.png in Sources */,
+				D971F86A266C53E000478919 /* image_inventory_2.png in Sources */,
+				D971F86C266C53E000478919 /* image_inventory_3.png in Sources */,
+				D971F86D266C53E000478919 /* image_pawnshop_4.png in Sources */,
+				D971F86E266C53E000478919 /* image_pawnshop_2.png in Sources */,
+				D971F86F266C53E000478919 /* image_pawnshop_3.png in Sources */,
+				D971F861266C4A8000478919 /* image_pawnshop_1.png in Sources */,
+				D971F85F266C4A7600478919 /* image_inventory_1.png in Sources */,
+				D971F85D266C48D400478919 /* image_auction_0.png in Sources */,
+				D971F85A266C476400478919 /* image_inventory_0.png in Sources */,
+				D971F85B266C476400478919 /* image_pawnshop_0.png in Sources */,
+				D971F857266C1A7600478919 /* inventory_null.png in Sources */,
+				D971F855266BCE9700478919 /* nextdayRoom.png in Sources */,
+				D971F853266BCCB700478919 /* gotoworkButton.png in Sources */,
+				D971F84F266BC78000478919 /* offwork.png in Sources */,
+				D971F84B266BBA3400478919 /* room_inventory.png in Sources */,
+				D971F84C266BBA3400478919 /* room_pawnshop.png in Sources */,
+				D971F84D266BBA3400478919 /* room_auction.png in Sources */,
+				D971F847266BB79100478919 /* backButton.png in Sources */,
+				D971F845266AC64F00478919 /* mainRoom.png in Sources */,
+				D971F841266AC57E00478919 /* pawnshop.png in Sources */,
+				D971F83F266AC57500478919 /* auction.png in Sources */,
+				D971F83D266AC56E00478919 /* inventory.png in Sources */,
+				D971F82F266AB3F400478919 /* storyRoom_4.png in Sources */,
+				D971F830266AB3F400478919 /* storyRoom_11.png in Sources */,
+				D971F831266AB3F400478919 /* storyRoom_13.png in Sources */,
+				D971F832266AB3F400478919 /* storyRoom_8.png in Sources */,
+				D971F833266AB3F400478919 /* storyRoom_6.png in Sources */,
+				D971F834266AB3F400478919 /* storyRoom_1.png in Sources */,
+				D971F835266AB3F400478919 /* storyRoom_2.png in Sources */,
+				D971F836266AB3F400478919 /* storyRoom_9.png in Sources */,
+				D971F837266AB3F400478919 /* storyRoom_7.png in Sources */,
+				D971F838266AB3F400478919 /* storyRoom_3.png in Sources */,
+				D971F839266AB3F400478919 /* storyRoom_10.png in Sources */,
+				D971F83A266AB3F400478919 /* storyRoom_12.png in Sources */,
+				D971F83B266AB3F400478919 /* storyRoom_5.png in Sources */,
+				D971F80B266A886E00478919 /* storyRoom_0.png in Sources */,
+				D971F7EA266A315200478919 /* main.cpp in Sources */,
+				D971F807266A877A00478919 /* nextButton.png in Sources */,
+				D971F805266A7E8C00478919 /* endButton.png in Sources */,
+				D971F803266A7E8500478919 /* startButton.png in Sources */,
+				D971F801266A6BCA00478919 /* startRoom.png in Sources */,
+				D971F7FE266A6AD800478919 /* bgm.mp3 in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D971F7EB266A315200478919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D971F7EC266A315200478919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D971F7EE266A315200478919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Library/Frameworks/Bangtal/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/lib/Release",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D971F7EF266A315200478919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Library/Frameworks/Bangtal/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/Bangtal/lib/Release",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D971F7E1266A315200478919 /* Build configuration list for PBXProject "Fine_Arts_Pawnshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971F7EB266A315200478919 /* Debug */,
+				D971F7EC266A315200478919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D971F7ED266A315200478919 /* Build configuration list for PBXNativeTarget "Fine_Arts_Pawnshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971F7EE266A315200478919 /* Debug */,
+				D971F7EF266A315200478919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D971F7DE266A315200478919 /* Project object */;
+}
