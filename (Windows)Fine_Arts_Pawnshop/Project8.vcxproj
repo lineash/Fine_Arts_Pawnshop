@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{833de896-eaf4-4125-b431-094e8b3e7f79}</ProjectGuid>
+    <RootNamespace>Project8</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\0_image_pawnshop_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\1_image_pawnshop_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\2_image_pawnshop_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\3_image_pawnshop_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\4_image_pawnshop_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\auction.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\backButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\buy_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\buy_over.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\buy_stop.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\change.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\dealButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\drop.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\endButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\eventRoom_0.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\eventRoom_1.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\eventRoom_2.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\exchange.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\fact.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\gotoworkButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_auction_0.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_0.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_1.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_10.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_11.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_12.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_13.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_14.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_15.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_16.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_17.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_18.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_19.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_2.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_20.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_21.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_22.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_23.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_24.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_3.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_4.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_5.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_6.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_7.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_8.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_9.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_0.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_1.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_10.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_11.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_12.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_13.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_14.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_15.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_16.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_17.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_18.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_19.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_2.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_20.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_21.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_22.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_23.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_24.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_3.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_4.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_5.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_6.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_7.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_8.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_9.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\inventory.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\inventory_null.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\mainRoom.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\nextButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\nextdayRoom.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\noButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\offwork.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\pawnshop.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\price_change.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\price_check.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\room_auction.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\room_inventory.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\room_pawnshop.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_idle.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_over1.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_over2.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_over3.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_stop.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\startButton.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\startRoom.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_0.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_1.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_10.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_11.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_12.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_13.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_2.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_3.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_4.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_5.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_6.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_7.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_8.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_9.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\wallet.png" />
+    <Image Include="..\..\..\Desktop\for_Window\Project2\yesButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\for_Window\Project2\bangtal.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\Desktop\for_Window\Project2\bgm.mp3" />
+    <Media Include="..\..\..\Desktop\for_Window\Project2\click.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

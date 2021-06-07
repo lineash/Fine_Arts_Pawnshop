@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8", "Project8.vcxproj", "{833DE896-EAF4-4125-B431-094E8B3E7F79}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Fine_Arts_Pawnshop", "..\Fine_Arts_Pawnshop\Fine_Arts_Pawnshop.vdproj", "{AC059B99-F3F7-41D6-82D3-82165FDBCE89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Debug|x64.ActiveCfg = Debug|x64
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Debug|x64.Build.0 = Debug|x64
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Debug|x86.ActiveCfg = Debug|Win32
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Debug|x86.Build.0 = Debug|Win32
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Release|x64.ActiveCfg = Release|x64
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Release|x64.Build.0 = Release|x64
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Release|x86.ActiveCfg = Release|Win32
+		{833DE896-EAF4-4125-B431-094E8B3E7F79}.Release|x86.Build.0 = Release|Win32
+		{AC059B99-F3F7-41D6-82D3-82165FDBCE89}.Debug|x64.ActiveCfg = Debug
+		{AC059B99-F3F7-41D6-82D3-82165FDBCE89}.Debug|x86.ActiveCfg = Debug
+		{AC059B99-F3F7-41D6-82D3-82165FDBCE89}.Release|x64.ActiveCfg = Release
+		{AC059B99-F3F7-41D6-82D3-82165FDBCE89}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55F6412D-7786-4804-8996-2B050152580A}
+	EndGlobalSection
+EndGlobal

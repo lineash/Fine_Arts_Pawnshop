@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\0_image_pawnshop_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\1_image_pawnshop_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\2_image_pawnshop_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\3_image_pawnshop_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\4_image_pawnshop_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\auction.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\backButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\buy_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\buy_over.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\buy_stop.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\change.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\dealButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\drop.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\endButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\eventRoom_0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\eventRoom_1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\eventRoom_2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\exchange.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\fact.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\gotoworkButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_auction_0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_5.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_6.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_7.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_8.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_9.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_10.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_11.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_12.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_13.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_14.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_15.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_17.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_18.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_19.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_20.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_21.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_22.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_23.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_inventory_24.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_5.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_6.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_7.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_8.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_9.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_10.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_11.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_12.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_13.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_14.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_15.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_17.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_18.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_19.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_20.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_21.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_22.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_23.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\image_pawnshop_24.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\inventory.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\inventory_null.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\mainRoom.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\nextButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\nextdayRoom.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\noButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\offwork.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\pawnshop.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\price_change.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\price_check.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\room_auction.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\room_inventory.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\room_pawnshop.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_idle.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_over1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_over2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_over3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\sell_stop.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\startButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\startRoom.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_5.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_6.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_7.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_8.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_9.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_10.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_11.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_12.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\storyRoom_13.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\wallet.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\Desktop\for_Window\Project2\yesButton.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\for_Window\Project2\bangtal.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\Desktop\for_Window\Project2\bgm.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="..\..\..\Desktop\for_Window\Project2\click.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
