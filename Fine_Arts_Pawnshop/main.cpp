@@ -5,7 +5,7 @@
 //  Created by line.ash on 2021/06/04.
 //
 //헤더 ==========================================================================================================
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <bangtal.h>
 #include <cstdlib>
